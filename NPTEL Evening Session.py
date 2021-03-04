@@ -4,7 +4,7 @@ import numpy as np
 
 import operator
 
-os.chdir("C:/Users/chait/Desktop")
+os.chdir("C:/Users/chait/Desktop")  # Make sure directory is where the 'apy.csv' file is
 
 df = pd.read_csv('apy.csv')
 
