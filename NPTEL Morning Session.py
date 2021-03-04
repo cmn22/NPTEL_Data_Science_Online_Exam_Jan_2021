@@ -2,9 +2,9 @@ import os
 import pandas as pd
 import numpy as np
 
-os.chdir("C:/Users/chait/Desktop")
+os.chdir("C:/Users/chait/Desktop")  # Make sure directory is where the 'apy.csv' file is
 
-df = pd.read_csv('apy.csv', index_col=0)
+df = pd.read_csv('apy.csv')
 
 # QUESTION 1
 # ----------
